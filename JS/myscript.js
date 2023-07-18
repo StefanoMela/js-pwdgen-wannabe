@@ -16,4 +16,7 @@ document.getElementById("userFamilyName").innerHTML = ("Il tuo cognome è: " + f
 
 document.getElementById("preferredColor").innerHTML =("Colore preferito: " + prefColor);
 
-document.getElementById("pwdComplete").innerHTML = username + familyName + prefColor;
+let raNumb = Math.floor((Math.random() * 100) + 1);
+
+
+document.getElementById("pwdComplete").innerHTML = (username + familyName + prefColor + raNumb);
