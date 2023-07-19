@@ -18,6 +18,6 @@ document.getElementById("preferredColor").innerHTML =("Colore preferito: " + pre
 
 let raNumb = Math.floor((Math.random() * 100) + 1);
 
-const pwdGenerated = username + familyName + prefColor
+const pwdGenerated = username + familyName + prefColor + raNumb
 
-document.getElementById("pwdComplete").innerHTML = (pwdGenerated + raNumb);
+document.getElementById("pwdComplete").innerHTML = pwdGenerated;
